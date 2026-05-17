@@ -1,6 +1,0 @@
-Este proyecto no tiene dependenciasUsa únicamente la biblioteca estándar de Python 3.8+.
-Módulos utilizados (todos incluidos en Python):
-- argparse  : Manejo de argumentos de línea de comandos
-- csv       : Lectura y escritura de archivos CSV
-- sys       : Control de salida del programa
-- os        : Operaciones de sistema de archivos

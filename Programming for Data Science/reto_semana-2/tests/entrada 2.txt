@@ -1,5 +1,0 @@
-ciudad,temperatura,unidad
-CDMX,22,c
-Nueva York,50,f
-Moscu,-10,c
-Miami,95,f

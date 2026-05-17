@@ -1,7 +1,7 @@
 # Analizador de Ventas
 # Reto Semana 3: Analizador de Ventas
 
-El programa agrupa todas las transacciones del mismo producto, calcula el total de unidades vendidas, el ingreso total y el precio promedio, y presenta los resultados ordenados de mayor a menor ingreso.
+El programa agrupa todas las transacciones del mismo producto, calcula el total de unidades vendidas, el ingreso total y el precio promedio, y presenta los resultados ordenados de mayor a menor ingreso. En caso de empate en ingreso, los productos se ordenan alfabéticamente.
 
 ## Instruciones de uso:
 
@@ -59,13 +59,13 @@ producto,unidades_vendidas,ingreso_total,precio_promedio
 Laptop,5,75500.00,15100.00
 Monitor,5,29600.00,5920.00
 Audifonos,20,7000.00,350.00
-Mouse,23,5875.00,255.43
+Mouse,23,6875.00,298.91
 Teclado,5,4000.00,800.00
 
 ¿Por qué la salida tiene esos valores?
 El programa toma todas las transacciones del archivo de entrada y las consolida por producto. Por ejemplo, Laptop aparece tres veces en la entrada con distintas cantidades y precios, por lo que el programa suma todas sus unidades y calcula el ingreso total multiplicando cada cantidad por su precio unitario. El resultado se ordena de mayor a menor ingreso, por eso Laptop aparece primero con el ingreso más alto.
 
-Las líneas con datos inválidos como columnas faltantes o valores no numéricos se ignoran automáticamente, por lo que no afectan los cálculos ni aparecen en la salida.
+Las líneas con datos inválidos como columnas faltantes, columnas extra, valores no numéricos o valores especiales como NaN, inf o -inf se ignoran automáticamente y no afectan los cálculos ni aparecen en la salida.
 
 El precio promedio no es el promedio simple de los precios, sino el ingreso total dividido entre las unidades vendidas. Esto refleja el valor real promedio por unidad considerando todas las transacciones del producto.
 
