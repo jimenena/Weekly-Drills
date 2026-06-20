@@ -1,0 +1,19 @@
+# Python - archivos que genera automáticamente el intérprete
+__pycache__/
+*.pyc
+*.pyo
+
+# Entorno virtual (si usas uno)
+venv/
+env/
+
+# VS Code - configuración local del editor
+.vscode/
+
+# Archivos de salida generados por el programa
+salida.txt
+*.out
+
+# Sistema operativo
+.DS_Store        # Mac
+Thumbs.db        # Windows
